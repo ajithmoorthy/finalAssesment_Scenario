@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NinjaStoreSuite" duration-ms="96405" started-at="2019-11-13T04:35:53Z" finished-at="2019-11-13T04:37:30Z">
+    <groups>
+    </groups>
+    <test name="VerifyProductAndCartTest" duration-ms="96405" started-at="2019-11-13T04:35:53Z" finished-at="2019-11-13T04:37:30Z">
+      <class name="com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="baseSetup" is-config="true" duration-ms="21338" started-at="2019-11-13T04:35:53Z" finished-at="2019-11-13T04:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="webURLLoader()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="webURLLoader" is-config="true" duration-ms="4075" started-at="2019-11-13T04:36:15Z" finished-at="2019-11-13T04:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webURLLoader -->
+        <test-method status="PASS" signature="verifyNinjaStore()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="verifyNinjaStore" duration-ms="70369" started-at="2019-11-13T04:36:19Z" finished-at="2019-11-13T04:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaStore -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore@337d0578]" name="endDriver" is-config="true" duration-ms="582" started-at="2019-11-13T04:37:29Z" finished-at="2019-11-13T04:37:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.validate_ninja_store.testscripts.TestVerifyNinjaStore -->
+    </test> <!-- VerifyProductAndCartTest -->
+  </suite> <!-- NinjaStoreSuite -->
+  <suite name="HeatClinicSuite" duration-ms="66251" started-at="2019-11-13T04:37:30Z" finished-at="2019-11-13T04:38:36Z">
+    <groups>
+    </groups>
+    <test name="VerifyCartTest" duration-ms="66251" started-at="2019-11-13T04:37:30Z" finished-at="2019-11-13T04:38:36Z">
+      <class name="com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="baseSetup" is-config="true" duration-ms="17925" started-at="2019-11-13T04:37:30Z" finished-at="2019-11-13T04:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="webURLLoader()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="webURLLoader" is-config="true" duration-ms="7209" started-at="2019-11-13T04:37:48Z" finished-at="2019-11-13T04:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webURLLoader -->
+        <test-method status="PASS" signature="verifyHeatClinic()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="verifyHeatClinic" duration-ms="40521" started-at="2019-11-13T04:37:55Z" finished-at="2019-11-13T04:38:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeatClinic -->
+        <test-method status="PASS" signature="endDriver()[pri:0, instance:com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic@32d992b2]" name="endDriver" is-config="true" duration-ms="594" started-at="2019-11-13T04:38:35Z" finished-at="2019-11-13T04:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.validate_ninja_store.testscripts.TestVerifyHeatClinic -->
+    </test> <!-- VerifyCartTest -->
+  </suite> <!-- HeatClinicSuite -->
+  <suite name="HeatAndNinjaSuite" duration-ms="0" started-at="2019-11-13T04:38:36Z" finished-at="2019-11-13T04:38:36Z">
+    <groups>
+    </groups>
+  </suite> <!-- HeatAndNinjaSuite -->
+</testng-results>
